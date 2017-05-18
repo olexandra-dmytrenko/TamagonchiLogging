@@ -13,9 +13,10 @@ public class Main {
 
                 State playState = new State(StateName.PLAY, 100, 8);
         TamagonchiProcess tamagonchi = new TamagonchiProcess(playState);
-        tamagonchi.run();
-        StateGenerator generator = new StateGenerator(tamagonchi);
-        generator.run();
+        Thread generator = new Thread(new StateGenerator(tamagonchi));
+        generator.start();
+        Thread threadTamagochi = new Thread(tamagonchi);
+        threadTamagochi.start();
 //        State deadState = new State(StateName.DIE, 200, 8);
 //        TamagonchiProcess alive = new TamagonchiProcess(aliveState);
 //        alive.run();

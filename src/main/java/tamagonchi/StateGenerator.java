@@ -17,7 +17,9 @@ public class StateGenerator implements Runnable {
             this.wait(200);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }tamagonchi.changeState(aliveState);
+        }
+        tamagonchi.changeState(aliveState);
+        tamagonchi.notifyAll();
         try {
             this.wait(200);
         } catch (InterruptedException e) {
