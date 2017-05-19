@@ -5,8 +5,8 @@ package tamagonchi;
  */
 public class StateGenerator implements Runnable {
     TamagonchiProcess tamagonchi;
-    State aliveState = new State(StateName.ALIVE, 200, 8);
-    State deadState = new State(StateName.DIE, 200, 8);
+    TamagonchiState aliveState = new TamagonchiState(StateName.ALIVE, 200, 8);
+    TamagonchiState deadState = new TamagonchiState(StateName.DIE, 200, 8);
 
     public StateGenerator(TamagonchiProcess tamagonchi) {
         this.tamagonchi = tamagonchi;
@@ -25,7 +25,7 @@ public class StateGenerator implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-//        tamagonchi.changeState(deadState);
-//        tamagonchi.notifyAll();
+        tamagonchi.changeState(deadState);
+        tamagonchi.notifyAll();
     }
 }

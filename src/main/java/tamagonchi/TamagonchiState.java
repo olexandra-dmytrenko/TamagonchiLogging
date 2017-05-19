@@ -3,12 +3,12 @@ package tamagonchi;
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  */
-public class State {
+public class TamagonchiState {
     private StateName name;
     private long sleepTime;
     private int counter;
 
-    public State(StateName name, long sleepTime, int counter) {
+    public TamagonchiState(StateName name, long sleepTime, int counter) {
         this.name = name;
         this.sleepTime = sleepTime;
         this.counter = counter;

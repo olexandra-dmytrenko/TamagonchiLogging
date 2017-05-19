@@ -5,12 +5,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  */
-public class TamagonchiProcess implements Runnable, Subscribed {
+public class TamagonchiProcess implements Runnable {
 
-    private State myState;
+    private TamagonchiState myState;
     AtomicInteger counter = new AtomicInteger(10);
 
-    public TamagonchiProcess(State newState) {
+    public TamagonchiProcess(TamagonchiState newState) {
         System.out.println("Tamagonchi created with state " + newState.getName());
         this.myState = newState;
         counter.set(newState.getCounter());
@@ -30,7 +30,7 @@ public class TamagonchiProcess implements Runnable, Subscribed {
         } while (counter.get() != 0 && myState.getName() != StateName.DIE);
     }
 
-    public synchronized void changeState(State newState) {
+    public synchronized void changeState(TamagonchiState newState) {
         myState = newState;
         counter.set(newState.getCounter());
         System.out.println("Changed state to " + newState.getName());
