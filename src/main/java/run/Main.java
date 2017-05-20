@@ -4,7 +4,8 @@ import tamagonchi.TamagonchiState;
 import tamagonchi.StateGenerator;
 import tamagonchi.StateName;
 import tamagonchi.TamagonchiProcess;
-
+//https://videoportal.epam.com/video/QoVbL9o9
+//https://www.tutorialspoint.com/java/java_thread_communication.htm
 public class Main {
 
     public synchronized static void main(String[] args) throws InterruptedException {
