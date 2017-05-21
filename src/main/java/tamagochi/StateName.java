@@ -1,4 +1,4 @@
-package tamagonchi;
+package tamagochi;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.

@@ -1,4 +1,4 @@
-package tamagonchi;
+package tamagochi;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -14,6 +14,9 @@ public class Tamagochi implements Runnable {
 
     public Tamagochi(TamagochiMind mind) {
         this.mind = mind;
+    }
+
+    public void startThread() {
         this.thread = new Thread(this);
         thread.start();
     }
@@ -27,7 +30,7 @@ public class Tamagochi implements Runnable {
                 System.out.println(counter);
             } while (counter.get() != 0 && mind.getState().getName() != StateName.DEAD);
 
-            TamagonchiState deadState = new TamagonchiState(StateName.DEAD);
+            TamagochiState deadState = new TamagochiState(StateName.DEAD);
             mind.output(deadState);
             mind.setTimeToDie(true);
             thread.interrupt();

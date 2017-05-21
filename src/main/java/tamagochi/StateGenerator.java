@@ -1,4 +1,4 @@
-package tamagonchi;
+package tamagochi;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
@@ -11,12 +11,15 @@ public class StateGenerator implements Runnable {
 
     public StateGenerator(TamagochiMind mind) {
         this.mind = mind;
+    }
+
+    public void startThread() {
         this. thread = new Thread(this);
         thread.start();
     }
 
     public void run() {
-        TamagonchiState state = null;
+        TamagochiState state = null;
         do {
             try {
                 state = mind.changeState();

@@ -1,4 +1,4 @@
-package tamagonchi;
+package tamagochi;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
@@ -6,30 +6,30 @@ package tamagonchi;
  */
 public class TamagochiMind {
 
-    private TamagonchiState state;
+    private TamagochiState state;
     private boolean isTimeToDie = false;
 
     public TamagochiMind() throws InterruptedException {
-        this.state = new TamagonchiState(StateName.ALIVE, 300);
+        this.state = new TamagochiState(StateName.ALIVE, 300);
         output(state);
     }
 
-    synchronized TamagonchiState changeState() throws InterruptedException {
+    synchronized TamagochiState changeState() throws InterruptedException {
         int timeout = 300;
         wait(timeout);
-        TamagonchiState newTamagonchiState = generateNewState();
-        state = newTamagonchiState;
-        return newTamagonchiState;
+        TamagochiState newTamagochiState = generateNewState();
+        state = newTamagochiState;
+        return newTamagochiState;
     }
 
-    private TamagonchiState generateNewState() {
+    private TamagochiState generateNewState() {
         int stateAmount = StateName.values().length;
         int newStateNameNumb = (int) ((Math.random() * (stateAmount - 2) + 1));
         StateName newStateName = StateName.values()[newStateNameNumb];
-        return new TamagonchiState(newStateName);
+        return new TamagochiState(newStateName);
     }
 
-    TamagonchiState getState() {
+    TamagochiState getState() {
         return state;
     }
 
@@ -38,7 +38,7 @@ public class TamagochiMind {
         System.out.println("I " + state.getName());
     }
 
-    void output(TamagonchiState state) throws InterruptedException {
+    void output(TamagochiState state) throws InterruptedException {
         System.out.println("I'm " + state.getName());
     }
 

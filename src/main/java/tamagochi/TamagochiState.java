@@ -1,18 +1,18 @@
-package tamagonchi;
+package tamagochi;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  */
-public class TamagonchiState {
+public class TamagochiState {
 
     private StateName name;
     private long sleepTime = 400;
 
-    TamagonchiState(StateName name) {
+    TamagochiState(StateName name) {
         this.name = name;
     }
 
-    TamagonchiState(StateName name, long sleepTime) {
+    TamagochiState(StateName name, long sleepTime) {
         this.name = name;
         this.sleepTime = sleepTime;
     }
