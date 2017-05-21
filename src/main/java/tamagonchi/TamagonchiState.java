@@ -4,37 +4,24 @@ package tamagonchi;
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  */
 public class TamagonchiState {
-    private StateName name;
-    private long sleepTime;
-    private int counter;
 
-    public TamagonchiState(StateName name, long sleepTime, int counter) {
+    private StateName name;
+    private long sleepTime = 400;
+
+    TamagonchiState(StateName name) {
         this.name = name;
-        this.sleepTime = sleepTime;
-        this.counter = counter;
     }
 
-    public StateName getName() {
+    TamagonchiState(StateName name, long sleepTime) {
+        this.name = name;
+        this.sleepTime = sleepTime;
+    }
+
+    StateName getName() {
         return name;
     }
 
-    public void setName(StateName name) {
-        this.name = name;
-    }
-
-    public long getSleepTime() {
+    long getSleepTime() {
         return sleepTime;
-    }
-
-    public void setSleepTime(long sleepTime) {
-        this.sleepTime = sleepTime;
-    }
-
-    public int getCounter() {
-        return counter;
-    }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
     }
 }

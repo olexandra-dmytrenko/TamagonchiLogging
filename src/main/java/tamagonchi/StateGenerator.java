@@ -2,30 +2,29 @@ package tamagonchi;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
+ * Events generator
  */
 public class StateGenerator implements Runnable {
-    TamagonchiProcess tamagonchi;
-    TamagonchiState aliveState = new TamagonchiState(StateName.ALIVE, 200, 8);
-    TamagonchiState deadState = new TamagonchiState(StateName.DIE, 200, 8);
 
-    public StateGenerator(TamagonchiProcess tamagonchi) {
-        this.tamagonchi = tamagonchi;
+    private TamagochiMind mind;
+    private Thread thread;
+
+    public StateGenerator(TamagochiMind mind) {
+        this.mind = mind;
+        this. thread = new Thread(this);
+        thread.start();
     }
 
-    public synchronized void run() {
-        try {
-            this.wait(200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        tamagonchi.changeState(aliveState);
-        tamagonchi.notifyAll();
-        try {
-            this.wait(200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        tamagonchi.changeState(deadState);
-        tamagonchi.notifyAll();
+    public void run() {
+        TamagonchiState state = null;
+        do {
+            try {
+                state = mind.changeState();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        } while (!mind.isTimeToDie() && state.getName() != StateName.DEAD);
+        System.out.println("State Generator Thread speaking: " + thread.getState());
+        thread.interrupt();
     }
 }
