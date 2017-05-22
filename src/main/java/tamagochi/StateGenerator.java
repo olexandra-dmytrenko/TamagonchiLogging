@@ -6,7 +6,7 @@ package tamagochi;
  */
 public class StateGenerator implements Runnable {
 
-    private TamagochiMind mind;
+    private final TamagochiMind mind;
     private Thread thread;
 
     public StateGenerator(TamagochiMind mind) {
@@ -14,20 +14,30 @@ public class StateGenerator implements Runnable {
     }
 
     public void startThread() {
-        this. thread = new Thread(this);
+        this.thread = new Thread(this);
         thread.start();
     }
 
     public void run() {
-        TamagochiState state = null;
         do {
             try {
-                state = mind.changeState();
+                synchronized (mind) {
+                    waitTillNotified();
+                    mind.changeState();
+                    mind.setChanged(true);
+                    mind.notifyAll();
+                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        } while (!mind.isTimeToDie() && state.getName() != StateName.DEAD);
+        } while (!mind.isTimeToDie());
         System.out.println("State Generator Thread speaking: " + thread.getState());
-        thread.interrupt();
+
+    }
+
+    private void waitTillNotified() throws InterruptedException {
+        while (mind.isChanged()) {
+            mind.wait();
+        }
     }
 }

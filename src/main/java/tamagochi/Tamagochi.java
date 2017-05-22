@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class Tamagochi implements Runnable {
 
-    private TamagochiMind mind;
+    private final TamagochiMind mind;
     private AtomicInteger counter = new AtomicInteger(10);
     private Thread thread;
 
@@ -25,15 +25,22 @@ public class Tamagochi implements Runnable {
         System.out.println("Run started with state " + mind.getState().getName());
         try {
             do {
-                counter.decrementAndGet();
-                mind.output();
-                System.out.println(counter);
-            } while (counter.get() != 0 && mind.getState().getName() != StateName.DEAD);
+                synchronized (mind) {
+                    while (!mind.isChanged()) {
+                        mind.wait();
+                    }
+                    counter.decrementAndGet();
+                    mind.output();
+                    System.out.println(counter);
+                    mind.setChanged(false);
+                    mind.notifyAll();
+                }
+            } while (counter.get() != 0);
 
             TamagochiState deadState = new TamagochiState(StateName.DEAD);
             mind.output(deadState);
             mind.setTimeToDie(true);
-            thread.interrupt();
+
             System.out.println("Tamagochi Thread speaking: " + thread.getState());
         } catch (InterruptedException e) {
             e.printStackTrace();

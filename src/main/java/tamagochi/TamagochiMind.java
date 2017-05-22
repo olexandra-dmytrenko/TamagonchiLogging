@@ -6,35 +6,35 @@ package tamagochi;
  */
 public class TamagochiMind {
 
-    private TamagochiState state;
-    private boolean isTimeToDie = false;
+    private volatile TamagochiState state;
+    private volatile boolean isTimeToDie = false;
+    private boolean changed = false;
 
     public TamagochiMind() throws InterruptedException {
         this.state = new TamagochiState(StateName.ALIVE, 300);
         output(state);
     }
 
-    synchronized TamagochiState changeState() throws InterruptedException {
+    void changeState() throws InterruptedException {
         int timeout = 300;
-        wait(timeout);
+        Thread.sleep(timeout);
         TamagochiState newTamagochiState = generateNewState();
         state = newTamagochiState;
-        return newTamagochiState;
     }
 
     private TamagochiState generateNewState() {
         int stateAmount = StateName.values().length;
         int newStateNameNumb = (int) ((Math.random() * (stateAmount - 2) + 1));
         StateName newStateName = StateName.values()[newStateNameNumb];
-        return new TamagochiState(newStateName);
+        return new TamagochiState(newStateName, 200);
     }
 
     TamagochiState getState() {
         return state;
     }
 
-    synchronized void output() throws InterruptedException {
-        wait(state.getSleepTime());
+    void output() throws InterruptedException {
+        Thread.sleep(state.getSleepTime());
         System.out.println("I " + state.getName());
     }
 
@@ -48,5 +48,13 @@ public class TamagochiMind {
 
     void setTimeToDie(boolean timeToDie) {
         isTimeToDie = timeToDie;
+    }
+
+    public boolean isChanged() {
+        return changed;
+    }
+
+    public void setChanged(boolean changed) {
+        this.changed = changed;
     }
 }
