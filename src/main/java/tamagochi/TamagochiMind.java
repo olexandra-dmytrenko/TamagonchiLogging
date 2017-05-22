@@ -29,7 +29,7 @@ public class TamagochiMind {
         return new TamagochiState(newStateName);
     }
 
-    TamagochiState getState() {
+    synchronized TamagochiState getState() {
         return state;
     }
 
