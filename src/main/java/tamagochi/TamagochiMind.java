@@ -42,13 +42,13 @@ public class TamagochiMind {
         while (!isChanged()) {
             wait();
         }
-        System.out.println("I " + state.getName());
+        System.out.println("I " + state.getName() + " " + state.getName().sign);
         setChanged(false);
         notifyAll();
     }
 
    synchronized void output(TamagochiState state) throws InterruptedException {
-        System.out.println("I'm " + state.getName());
+        System.out.println("I'm " + state.getName() + " " + state.getName().sign);
         if (state.getName() == StateName.DEAD) {
             setTimeToDie(true);
         }

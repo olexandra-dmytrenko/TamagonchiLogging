@@ -1,8 +1,8 @@
 package tamagochi;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 import lombok.extern.java.Log;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
@@ -12,7 +12,7 @@ import lombok.extern.java.Log;
 public class Tamagochi implements Runnable {
 
     private final TamagochiMind mind;
-    private AtomicInteger counter = new AtomicInteger(5);
+    private AtomicInteger counter = new AtomicInteger(10);
     private Thread thread;
 
     public Tamagochi(TamagochiMind mind) {
