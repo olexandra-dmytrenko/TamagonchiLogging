@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.out.println("Hello My Maser! I'm your Tamagochi. ❥✿✿✿❤︎");
+        System.out.println("Hello My Maser! I'm your Tamagochi. ❥✿✿✿❤");
 
         TamagochiMind mind = new TamagochiMind();
 
