@@ -1,18 +1,23 @@
 package tamagochi;
 
-import lombok.extern.java.Log;
-
+import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.LogRecord;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+import java.util.logging.XMLFormatter;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  * Observer
  */
-@Log
+//@Log
 public class Tamagochi implements Runnable {
-
+    Logger logger;
     private final TamagochiMind mind;
-    private AtomicInteger counter = new AtomicInteger(10);
+    private AtomicInteger counter = new AtomicInteger(5);
     private Thread thread;
 
     public Tamagochi(TamagochiMind mind) {
@@ -20,25 +25,39 @@ public class Tamagochi implements Runnable {
     }
 
     public void startThread() {
+        setUpFileLogger();
         this.thread = new Thread(this);
         thread.start();
     }
 
+    private void setUpFileLogger() {
+        try {
+            logger = Logger.getAnonymousLogger();
+            FileHandler handler = new FileHandler("julLog.log");
+            handler.setFormatter(new SimpleFormatter());
+            handler.publish(new LogRecord(Level.CONFIG, "Configuring logger"));
+            logger.addHandler(handler);
+            logger.setLevel(Level.ALL);
+            handler.setLevel(Level.FINE);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void run() {
-        log.info("Tamagochi Thread has started " + Thread.currentThread().getName());
+        logger.finest("Tamagochi Thread has started " + Thread.currentThread().getName());
         System.out.println("Run started with state " + mind.getState().getName());
         try {
             do {
                 counter.decrementAndGet();
                 mind.output();
                 System.out.println(counter);
-
             } while (counter.get() != 0);
 
-               TamagochiState deadState = new TamagochiState(StateName.DEAD);
-               mind.output(deadState);
+            TamagochiState deadState = new TamagochiState(StateName.DEAD);
+            mind.output(deadState);
 
-            System.out.println("Tamagochi Thread speaking: " + thread.getState());
+            logger.fine("Tamagochi Thread speaking: " + thread.getState());
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
