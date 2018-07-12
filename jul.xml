@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-07-12T07:56:58</date>
+  <millis>1531371418270</millis>
+  <sequence>0</sequence>
+  <logger>tamagochi.StateGenerator</logger>
+  <level>CONFIG</level>
+  <class>tamagochi.StateGenerator</class>
+  <method>startThread</method>
+  <thread>1</thread>
+  <message>StateGenerator has started main</message>
+</record>
+<record>
+  <date>2018-07-12T07:56:58</date>
+  <millis>1531371418271</millis>
+  <sequence>1</sequence>
+  <logger>tamagochi.StateGenerator</logger>
+  <level>FINE</level>
+  <class>tamagochi.StateGenerator</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>StateGenerator Thread has started Thread-1</message>
+</record>
+<record>
+  <date>2018-07-12T07:56:58</date>
+  <millis>1531371418510</millis>
+  <sequence>7</sequence>
+  <logger>tamagochi.StateGenerator</logger>
+  <level>FINE</level>
+  <class>tamagochi.StateGenerator</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>State Generator Thread speaking: RUNNABLE</message>
+</record>
+</log>
