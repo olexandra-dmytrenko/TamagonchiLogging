@@ -1,10 +1,18 @@
 package tamagochi;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  * Observable
  */
+//@Slf4j
 public class TamagochiMind {
+    private static Logger log = LoggerFactory.getLogger(TamagochiMind.class);
+//    Logger logger = Logger.getLogger("name");
 
     private TamagochiState state;
     private volatile boolean isTimeToDie = false;
@@ -22,6 +30,7 @@ public class TamagochiMind {
             wait();
         }
         state = generateNewState();
+        log.warn("Tamagochi mind changes state to {}", state);
         setChanged(true);
         notifyAll();
     }

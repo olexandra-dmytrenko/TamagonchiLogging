@@ -1,0 +1,83 @@
+694  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+701  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+702  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+704  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+704  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+704  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+704  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+708  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+710  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+711  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+712  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind init
+658  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@2be88c1
+666  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@890ec57
+667  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@3e0314e3
+668  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@2de3b2ea
+669  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@7b621c5f
+669  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@749fb530
+669  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@521d134c
+671  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@62598f07
+671  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@9b2e7f7
+672  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@de5c4
+672  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@3a3001fa
+672  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@14bf900c
+671  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@4991c5e0
+680  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@4fc2d666
+680  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@2d13ccc8
+682  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@10e3d46d
+682  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@257feb93
+682  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@7cd778bc
+682  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@4f919e62
+683  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@41df7b41
+684  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@1b26339a
+684  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@5c73bada
+684  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@1f525db8
+684  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to tamagochi.TamagochiState@256d2860
+668  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🍌), sleepTime=100)
+676  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🏈), sleepTime=100)
+676  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🤼‍), sleepTime=100)
+678  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=😔), sleepTime=100)
+678  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🏈), sleepTime=100)
+679  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🚕), sleepTime=100)
+679  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🚕), sleepTime=100)
+680  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🍌), sleepTime=100)
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🤼‍), sleepTime=100)
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🚕), sleepTime=100)
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🚕), sleepTime=100)
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState(name=StateName(sign=🏈), sleepTime=100)
+678  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🍌)}
+686  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=💕❤💓)}
+686  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=💕❤💓)}
+688  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🍌)}
+688  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🤼‍)}
+688  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🤼‍)}
+688  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🍌)}
+690  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=💕❤💓)}
+690  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🤼‍)}
+690  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🍌)}
+691  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=😔)}
+691  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=StateName(sign=🍌)}
+670  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=WORK}
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=PLAY}
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=SLEEP}
+682  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=WORK}
+683  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=PLAY}
+683  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=WORK}
+683  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=SLEEP}
+684  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=WORK}
+685  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=EAT}
+685  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=WORK}
+685  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=WORK}
+686  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to TamagochiState{name=LOVE}
+664  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to WORK 🚕
+675  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to SLEEP 😔
+675  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to LOVE 💕❤💓
+678  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to FIGHT 🤼‍
+679  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to FIGHT 🤼‍
+679  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to FIGHT 🤼‍
+679  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to WORK 🚕
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to WORK 🚕
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to LOVE 💕❤💓
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to PLAY 🏈
+681  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to PLAY 🏈
+682  [Thread-1] WARN  tamagochi.TamagochiMind - Tamagochi mind changes state to EAT 🍌

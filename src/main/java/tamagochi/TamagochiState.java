@@ -24,4 +24,9 @@ public class TamagochiState {
     long getSleepTime() {
         return sleepTime;
     }
+
+    @Override
+    public String toString() {
+        return name + " " + name.sign;
+    }
 }
