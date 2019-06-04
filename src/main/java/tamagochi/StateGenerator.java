@@ -27,12 +27,13 @@ public class StateGenerator implements Runnable {
         log.config("StateGenerator has started " + Thread.currentThread().getName());
     }
 
-    private void setUpLogger(){
+    private void setUpLogger() {
         Handler handler = new ConsoleHandler();
         handler.setLevel(Level.FINEST);
         log.setLevel(Level.FINEST);
         log.addHandler(handler);
     }
+
     public void run() {
         log.fine("StateGenerator Thread has started " + Thread.currentThread().getName());
         do {
@@ -44,5 +45,4 @@ public class StateGenerator implements Runnable {
         } while (!mind.isTimeToDie());
         log.finest("State Generator Thread speaking: " + thread.getState());
     }
-
 }
