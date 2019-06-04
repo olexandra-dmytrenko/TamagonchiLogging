@@ -33,7 +33,7 @@ public class Tamagochi implements Runnable {
     private void setUpFileLogger() {
         try {
             logger = Logger.getAnonymousLogger();
-            FileHandler handler = new FileHandler("julLog.log");
+            FileHandler handler = new FileHandler("log/julLog.log");
             handler.setFormatter(new SimpleFormatter());
             handler.publish(new LogRecord(Level.CONFIG, "Configuring logger"));
             logger.addHandler(handler);

@@ -33,6 +33,7 @@ public class StateGenerator implements Runnable {
         thread.start();
         log.finest("StateGenerator has started from thread " + Thread.currentThread().getName());
     }
+
     public void run() {
         log.warning("StateGenerator Thread has started in thread" + Thread.currentThread().getName());
         do {
