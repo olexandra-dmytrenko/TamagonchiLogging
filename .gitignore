@@ -62,5 +62,4 @@ fabric.properties
 .gitignore
 .idea/
 TamagonchiLogging.iml
-src/main/resources/
 target/

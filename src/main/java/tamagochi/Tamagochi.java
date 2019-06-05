@@ -1,6 +1,9 @@
 package tamagochi;
 
+import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -8,9 +11,9 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  * Observer
  */
-@Slf4j
 public class Tamagochi implements Runnable {
 
+    private static Logger log = LogManager.getLogger(Tamagochi.class);
     private final TamagochiMind mind;
     private AtomicInteger counter = new AtomicInteger(10);
     private Thread thread;
@@ -19,7 +22,7 @@ public class Tamagochi implements Runnable {
 
     public Tamagochi(TamagochiMind mind) {
         this.mind = mind;
-        log.error("Slf4j hi {} ", "Sasha");
+        log.info("Slf4j hi {} ", "Sasha");
     }
 //    private void setUpLogger(){
 //        Handler handler = null;
