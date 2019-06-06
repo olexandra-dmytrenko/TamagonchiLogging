@@ -1,8 +1,8 @@
 package run;
 
-import tamagochi.StateGenerator;
-import tamagochi.Tamagochi;
-import tamagochi.TamagochiMind;
+import threads.tamagochi.StateGenerator;
+import threads.tamagochi.Tamagochi;
+import threads.tamagochi.TamagochiMind;
 
 //https://videoportal.epam.com/video/QoVbL9o9
 //https://www.tutorialspoint.com/java/java_thread_communication.htm

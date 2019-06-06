@@ -1,4 +1,4 @@
-package tamagochi;
+package threads.tamagochi;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.

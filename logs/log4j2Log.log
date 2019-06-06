@@ -1,234 +1,381 @@
-08:10:14.570 [main] INFO  tamagochi.StateGenerator - StateGenerator has started main
-08:10:14.570 [Thread-1] FATAL tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:10:14.575 [main] INFO  tamagochi.Tamagochi - Slf4j hi Sasha 
-08:10:14.576 [Thread-2] INFO  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:10:14.577 [Thread-1] ERROR tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:16:48.790 [main] INFO  tamagochi.StateGenerator - StateGenerator has started main
-08:16:48.790 [Thread-1] FATAL tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:16:48.795 [main] INFO  tamagochi.Tamagochi - Slf4j hi Sasha 
-08:16:48.795 [Thread-2] INFO  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:16:48.795 [Thread-2] CUST  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:16:48.797 [Thread-1] ERROR tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-[LOG]08:20:19.269 [main] INFO  tamagochi.StateGenerator - StateGenerator has started main
-[LOG]08:20:19.269 [Thread-1] FATAL tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-[LOG]08:20:19.273 [main] INFO  tamagochi.Tamagochi - Slf4j hi Sasha 
-[LOG]08:20:19.274 [Thread-2] INFO  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-[LOG]08:20:19.274 [Thread-2] CUST  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-[LOG]08:20:19.275 [Thread-1] ERROR tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-LOG 08:20:33.583 [main] INFO  tamagochi.StateGenerator - StateGenerator has started main
-LOG 08:20:33.583 [Thread-1] FATAL tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-LOG 08:20:33.587 [main] INFO  tamagochi.Tamagochi - Slf4j hi Sasha 
-LOG 08:20:33.587 [Thread-2] INFO  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-LOG 08:20:33.588 [Thread-2] CUST  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-LOG 08:20:33.589 [Thread-1] ERROR tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:21:06.138 [main] INFO  tamagochi.StateGenerator - StateGenerator has started main
-08:21:06.138 [Thread-1] FATAL tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:21:06.142 [main] INFO  tamagochi.Tamagochi - Slf4j hi Sasha 
-08:21:06.143 [Thread-2] INFO  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:21:06.143 [Thread-2] CUST  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:21:06.144 [Thread-1] ERROR tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:22:54.637 [main] INFO  tamagochi.StateGenerator - StateGenerator has started main
-08:22:54.637 [Thread-1] FATAL tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:22:54.641 [main] INFO  tamagochi.Tamagochi - Slf4j hi Sasha 
-08:22:54.642 [Thread-2] INFO  tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:22:54.642 [Thread-2] CUSTOMER tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:22:54.643 [Thread-1] ERROR tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:23:49.448 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:23:49.448 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:23:49.454 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:23:49.454 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:23:49.454 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:23:49.455 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:24:46.599 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:24:46.599 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:24:46.604 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:24:46.604 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:24:46.604 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:24:46.605 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:25:12.438 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:25:12.438 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:25:12.443 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:25:12.443 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:12.443 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:12.444 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:25:24.144 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:25:24.144 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:25:24.148 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:25:24.148 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:24.149 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:24.150 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:25:38.103 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:25:38.103 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:25:38.107 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:25:38.107 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:38.108 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:38.109 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:25:59.653 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:25:59.653 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:25:59.657 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:25:59.658 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:59.658 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:25:59.659 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:27:01.219 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:27:01.219 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:27:01.223 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:27:01.224 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:27:01.224 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:27:01.225 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:27:14.612 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:27:14.612 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:27:14.616 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:27:14.616 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:27:14.617 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:27:14.618 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:27:30.414 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:27:30.414 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:27:30.419 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:27:30.419 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:27:30.419 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:27:30.421 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:28:08.209 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:28:08.209 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:28:08.213 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:28:08.214 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:08.214 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:08.215 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:28:21.183 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:28:21.183 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:28:21.187 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:28:21.187 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:21.188 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:21.189 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:28:29.123 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:28:29.123 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:28:29.127 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:28:29.128 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:29.128 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:29.129 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:28:45.266 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:28:45.266 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:28:45.270 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:28:45.271 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:45.271 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:28:45.272 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:29:14.155 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:29:14.155 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:29:14.159 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:29:14.160 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:29:14.160 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:29:14.161 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:29:33.846 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:29:33.846 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:29:33.850 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:29:33.851 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:29:33.851 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:29:33.852 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:30:11.613 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:30:11.613 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:30:11.618 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:30:11.618 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:30:11.618 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:30:11.619 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:30:38.050 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:30:38.050 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:30:38.055 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:30:38.055 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:30:38.056 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:30:38.057 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:30:45.316 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:30:45.316 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:30:45.321 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:30:45.321 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:30:45.321 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:30:45.323 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:31:11.045 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:31:11.045 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:31:11.050 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:31:11.050 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:31:11.050 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:31:11.051 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:31:21.171 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:31:21.171 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:31:21.175 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:31:21.175 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:31:21.175 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:31:21.177 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:31:29.867 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:31:29.867 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:31:29.871 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:31:29.872 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:31:29.872 [Thread-2] CUSTOMER   tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:31:29.873 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:44:42.717 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:44:42.717 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:44:42.722 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:44:42.722 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:44:42.723 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:44:42.723 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL GIES WELL!
-08:44:42.724 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-08:44:42.724 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-08:44:55.727 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-08:44:55.727 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-08:44:55.732 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-08:44:55.732 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:44:55.732 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-08:44:55.732 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-08:44:55.733 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-08:44:55.733 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-09:03:13.716 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-09:03:13.716 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-09:03:13.721 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-09:03:13.721 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:03:13.721 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:03:13.721 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-09:03:13.722 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-09:03:13.722 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-09:03:27.951 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-09:03:27.951 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-09:03:27.956 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-09:03:27.956 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:03:27.956 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:03:27.957 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-09:03:27.958 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-09:03:27.958 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-09:03:59.094 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-09:03:59.094 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-09:03:59.098 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-09:03:59.098 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:03:59.099 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:03:59.099 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-09:03:59.100 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-09:03:59.100 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-09:04:20.396 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-09:04:20.396 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-09:04:20.401 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-09:04:20.401 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:04:20.401 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:04:20.402 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-09:04:20.403 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-09:04:20.403 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-09:04:34.992 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-09:04:34.992 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-09:04:34.996 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-09:04:34.997 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:04:34.997 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:04:34.997 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-09:04:34.998 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-09:04:34.998 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-09:05:00.485 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-09:05:00.485 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-09:05:00.489 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-09:05:00.489 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:05:00.490 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:05:00.490 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-09:05:00.491 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-09:05:00.491 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
-09:07:41.407 [main] INFO       tamagochi.StateGenerator - StateGenerator has started main
-09:07:41.407 [Thread-1] FATAL      tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
-09:07:41.411 [main] DEBUG      tamagochi.StateGenerator - Message with thead main params
-09:07:41.412 [main] INFO       tamagochi.Tamagochi - Slf4j hi Sasha 
-09:07:41.412 [Thread-2] INFO       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:07:41.412 [Thread-2] CUST       tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
-09:07:41.413 [Thread-2] CUSTOMER   tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
-09:07:41.414 [Thread-2] TRACE      tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
-09:07:41.414 [Thread-1] ERROR      tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:10:14.570 [main] INFO  test.tamagochi.StateGenerator - StateGenerator has started main
+08:10:14.570 [Thread-1] FATAL test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:10:14.575 [main] INFO  test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:10:14.576 [Thread-2] INFO  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:10:14.577 [Thread-1] ERROR test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:16:48.790 [main] INFO  test.tamagochi.StateGenerator - StateGenerator has started main
+08:16:48.790 [Thread-1] FATAL test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:16:48.795 [main] INFO  test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:16:48.795 [Thread-2] INFO  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:16:48.795 [Thread-2] CUST  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:16:48.797 [Thread-1] ERROR test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+[LOG]08:20:19.269 [main] INFO  test.tamagochi.StateGenerator - StateGenerator has started main
+[LOG]08:20:19.269 [Thread-1] FATAL test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+[LOG]08:20:19.273 [main] INFO  test.tamagochi.Tamagochi - Slf4j hi Sasha
+[LOG]08:20:19.274 [Thread-2] INFO  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+[LOG]08:20:19.274 [Thread-2] CUST  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+[LOG]08:20:19.275 [Thread-1] ERROR test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+LOG 08:20:33.583 [main] INFO  test.tamagochi.StateGenerator - StateGenerator has started main
+LOG 08:20:33.583 [Thread-1] FATAL test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+LOG 08:20:33.587 [main] INFO  test.tamagochi.Tamagochi - Slf4j hi Sasha
+LOG 08:20:33.587 [Thread-2] INFO  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+LOG 08:20:33.588 [Thread-2] CUST  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+LOG 08:20:33.589 [Thread-1] ERROR test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:21:06.138 [main] INFO  test.tamagochi.StateGenerator - StateGenerator has started main
+08:21:06.138 [Thread-1] FATAL test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:21:06.142 [main] INFO  test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:21:06.143 [Thread-2] INFO  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:21:06.143 [Thread-2] CUST  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:21:06.144 [Thread-1] ERROR test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:22:54.637 [main] INFO  test.tamagochi.StateGenerator - StateGenerator has started main
+08:22:54.637 [Thread-1] FATAL test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:22:54.641 [main] INFO  test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:22:54.642 [Thread-2] INFO  test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:22:54.642 [Thread-2] CUSTOMER test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:22:54.643 [Thread-1] ERROR test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:23:49.448 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:23:49.448 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:23:49.454 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:23:49.454 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:23:49.454 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:23:49.455 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:24:46.599 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:24:46.599 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:24:46.604 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:24:46.604 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:24:46.604 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:24:46.605 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:25:12.438 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:25:12.438 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:25:12.443 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:25:12.443 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:12.443 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:12.444 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:25:24.144 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:25:24.144 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:25:24.148 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:25:24.148 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:24.149 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:24.150 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:25:38.103 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:25:38.103 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:25:38.107 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:25:38.107 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:38.108 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:38.109 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:25:59.653 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:25:59.653 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:25:59.657 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:25:59.658 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:59.658 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:25:59.659 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:27:01.219 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:27:01.219 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:27:01.223 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:27:01.224 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:27:01.224 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:27:01.225 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:27:14.612 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:27:14.612 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:27:14.616 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:27:14.616 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:27:14.617 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:27:14.618 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:27:30.414 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:27:30.414 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:27:30.419 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:27:30.419 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:27:30.419 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:27:30.421 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:28:08.209 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:28:08.209 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:28:08.213 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:28:08.214 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:08.214 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:08.215 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:28:21.183 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:28:21.183 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:28:21.187 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:28:21.187 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:21.188 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:21.189 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:28:29.123 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:28:29.123 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:28:29.127 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:28:29.128 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:29.128 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:29.129 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:28:45.266 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:28:45.266 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:28:45.270 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:28:45.271 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:45.271 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:28:45.272 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:29:14.155 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:29:14.155 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:29:14.159 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:29:14.160 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:29:14.160 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:29:14.161 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:29:33.846 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:29:33.846 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:29:33.850 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:29:33.851 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:29:33.851 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:29:33.852 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:30:11.613 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:30:11.613 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:30:11.618 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:30:11.618 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:30:11.618 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:30:11.619 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:30:38.050 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:30:38.050 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:30:38.055 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:30:38.055 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:30:38.056 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:30:38.057 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:30:45.316 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:30:45.316 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:30:45.321 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:30:45.321 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:30:45.321 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:30:45.323 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:31:11.045 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:31:11.045 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:31:11.050 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:31:11.050 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:31:11.050 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:31:11.051 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:31:21.171 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:31:21.171 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:31:21.175 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:31:21.175 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:31:21.175 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:31:21.177 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:31:29.867 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:31:29.867 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:31:29.871 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:31:29.872 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:31:29.872 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:31:29.873 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:44:42.717 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:44:42.717 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:44:42.722 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:44:42.722 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:44:42.723 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:44:42.723 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL GIES WELL!
+08:44:42.724 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+08:44:42.724 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+08:44:55.727 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+08:44:55.727 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+08:44:55.732 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+08:44:55.732 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:44:55.732 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+08:44:55.732 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+08:44:55.733 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+08:44:55.733 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+09:03:13.716 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+09:03:13.716 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+09:03:13.721 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+09:03:13.721 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:03:13.721 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:03:13.721 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+09:03:13.722 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+09:03:13.722 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+09:03:27.951 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+09:03:27.951 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+09:03:27.956 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+09:03:27.956 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:03:27.956 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:03:27.957 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+09:03:27.958 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+09:03:27.958 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+09:03:59.094 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+09:03:59.094 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+09:03:59.098 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+09:03:59.098 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:03:59.099 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:03:59.099 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+09:03:59.100 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+09:03:59.100 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+09:04:20.396 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+09:04:20.396 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+09:04:20.401 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+09:04:20.401 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:04:20.401 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:04:20.402 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+09:04:20.403 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+09:04:20.403 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+09:04:34.992 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+09:04:34.992 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+09:04:34.996 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+09:04:34.997 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:04:34.997 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:04:34.997 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+09:04:34.998 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+09:04:34.998 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+09:05:00.485 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+09:05:00.485 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+09:05:00.489 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+09:05:00.489 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:05:00.490 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:05:00.490 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+09:05:00.491 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+09:05:00.491 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+09:07:41.407 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+09:07:41.407 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+09:07:41.411 [main] DEBUG      test.tamagochi.StateGenerator - Message with thead main params
+09:07:41.412 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+09:07:41.412 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:07:41.412 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+09:07:41.413 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+09:07:41.414 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+09:07:41.414 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+11:26:15.467 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+11:26:15.467 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+11:26:15.471 [main] DEBUG      test.tamagochi.StateGenerator - Message with thead main params
+11:26:15.471 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+11:26:15.472 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:26:15.472 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:26:15.472 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:26:15.473 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:26:15.473 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+11:27:13.931 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+11:27:13.931 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+11:27:13.936 [main] DEBUG      test.tamagochi.StateGenerator - Message with thead main params
+11:27:13.936 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+11:27:13.936 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:27:13.937 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:27:13.937 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:27:13.938 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:27:13.938 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+11:30:25.209 [main] INFO       test.tamagochi.StateGenerator - StateGenerator has started main
+11:30:25.209 [Thread-1] FATAL      test.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+11:30:25.213 [main] DEBUG      test.tamagochi.StateGenerator - Message with thead main params
+11:30:25.214 [main] INFO       test.tamagochi.Tamagochi - Slf4j hi Sasha
+11:30:25.214 [Thread-2] INFO       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:30:25.214 [Thread-2] CUST       test.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:30:25.215 [Thread-2] CUSTOMER   test.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:30:25.216 [Thread-2] TRACE      test.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:30:25.216 [Thread-1] ERROR      test.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE
+11:33:13 [main] INFO       StateGenerator - StateGenerator has started main
+11:33:13 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:33:13 [main] DEBUG      StateGenerator - Message with thead main params
+11:33:13 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:33:13 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:33:13 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:33:13 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:33:13 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:33:13 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:34:05 [main] INFO       t.StateGenerator - StateGenerator has started main
+11:34:05 [Thread-1] FATAL      t.StateGenerator - StateGenerator Thread has started Thread-1
+11:34:05 [main] DEBUG      t.StateGenerator - Message with thead main params
+11:34:05 [main] INFO       t.Tamagochi - Slf4j hi Sasha 
+11:34:05 [Thread-2] INFO       t.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:34:05 [Thread-2] CUST       t.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:34:05 [Thread-2] CUSTOMER   t.Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:34:05 [Thread-2] TRACE      t.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:34:05 [Thread-1] ERROR      t.StateGenerator - State Generator Thread speaking: RUNNABLE
+11:34:50 [main] INFO       t.t.StateGenerator - StateGenerator has started main
+11:34:50 [Thread-1] FATAL      t.t.StateGenerator - StateGenerator Thread has started Thread-1
+11:34:50 [main] DEBUG      t.t.StateGenerator - Message with thead main params
+11:34:50 [main] INFO       t.t.Tamagochi - Slf4j hi Sasha 
+11:34:50 [Thread-2] INFO       t.t.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:34:50 [Thread-2] CUST       t.t.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:34:50 [Thread-2] CUSTOMER   t.t.Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:34:50 [Thread-2] TRACE      t.t.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:34:50 [Thread-1] ERROR      t.t.StateGenerator - State Generator Thread speaking: RUNNABLE
+11:35:10 [main] INFO       t.~.StateGenerator - StateGenerator has started main
+11:35:10 [Thread-1] FATAL      t.~.StateGenerator - StateGenerator Thread has started Thread-1
+11:35:10 [main] DEBUG      t.~.StateGenerator - Message with thead main params
+11:35:10 [main] INFO       t.~.Tamagochi - Slf4j hi Sasha 
+11:35:10 [Thread-2] INFO       t.~.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:35:10 [Thread-2] CUST       t.~.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:35:10 [Thread-2] CUSTOMER   t.~.Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:35:10 [Thread-2] TRACE      t.~.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:35:10 [Thread-1] ERROR      t.~.StateGenerator - State Generator Thread speaking: RUNNABLE
+11:35:25 [main] INFO       StateGenerator - StateGenerator has started main
+11:35:25 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:35:25 [main] DEBUG      StateGenerator - Message with thead main params
+11:35:25 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:35:25 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:35:25 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:35:25 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:35:25 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:35:25 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:35:39 [main] INFO       StateGenerator - StateGenerator has started main
+11:35:39 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:35:39 [main] DEBUG      StateGenerator - Message with thead main params
+11:35:39 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:35:39 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:35:39 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:35:39 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:35:39 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:35:39 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:36:03 [main] INFO       StateGenerator - StateGenerator has started main
+11:36:03 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:36:03 [main] DEBUG      StateGenerator - Message with thead main params
+11:36:03 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:36:03 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:36:03 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:36:03 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:36:03 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:36:03 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:36:22 [main] INFO       StateGenerator - StateGenerator has started main
+11:36:22 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:36:22 [main] DEBUG      StateGenerator - Message with thead main params
+11:36:22 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:36:22 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:36:22 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:36:22 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:36:22 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:36:22 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:37:02 [main] INFO       StateGenerator - StateGenerator has started main
+11:37:02 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:37:02 [main] DEBUG      StateGenerator - Message with thead main params
+11:37:02 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:37:02 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:37:02 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:37:02 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:37:02 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:37:02 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:39:16 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:39:16 [main] INFO       StateGenerator - StateGenerator has started main
+11:39:16 [main] DEBUG      StateGenerator - Message with thead main params
+11:39:16 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:39:16 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:39:16 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:39:16 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:39:16 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:39:16 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:51:46 [main] INFO       StateGenerator - StateGenerator has started main
+11:51:46 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:51:46 [main] DEBUG      StateGenerator - Message with thead main params
+11:51:46 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:51:46 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:51:46 [Thread-2] INFO       Tamagochi - Tamagochi Thread named = Thread-2 has started
+11:51:46 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:51:46 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:51:46 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:51:46 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+11:52:39 [main] INFO       StateGenerator - StateGenerator has started main
+11:52:39 [Thread-1] FATAL      StateGenerator - StateGenerator Thread has started Thread-1
+11:52:39 [main] DEBUG      StateGenerator - Message with thead main params
+11:52:39 [main] INFO       Tamagochi - Slf4j hi Sasha 
+11:52:39 [Thread-2] INFO       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:52:39 [Thread-2] INFO       Tamagochi - Tamagochi Thread named = Thread-2 has {} started
+11:52:39 [Thread-2] CUST       Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+11:52:39 [Thread-2] CUSTOMER   Tamagochi - CUSTOMER, ALL G0ES WELL!
+11:52:39 [Thread-2] TRACE      Tamagochi - Tamagochi Thread speaking: RUNNABLE
+11:52:39 [Thread-1] ERROR      StateGenerator - State Generator Thread speaking: RUNNABLE
+12:14:18.468 [main] INFO       threads.tamagochi.StateGenerator - StateGenerator has started main
+12:14:18.468 [Thread-1] FATAL      threads.tamagochi.StateGenerator - StateGenerator Thread has started Thread-1
+12:14:18.472 [main] DEBUG      threads.tamagochi.StateGenerator - Message with thead main params
+12:14:18.472 [main] INFO       threads.tamagochi.Tamagochi - Slf4j hi Sasha 
+12:14:18.473 [Thread-2] INFO       threads.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+12:14:18.473 [Thread-2] INFO       threads.tamagochi.Tamagochi - Tamagochi Thread named = Thread-2 has {} started
+12:14:18.473 [Thread-2] CUST       threads.tamagochi.Tamagochi - Tamagochi Thread has started !!!!!!Thread-2
+12:14:18.473 [Thread-2] CUSTOMER   threads.tamagochi.Tamagochi - CUSTOMER, ALL G0ES WELL!
+12:14:18.474 [Thread-2] TRACE      threads.tamagochi.Tamagochi - Tamagochi Thread speaking: RUNNABLE
+12:14:18.474 [Thread-1] ERROR      threads.tamagochi.StateGenerator - State Generator Thread speaking: RUNNABLE

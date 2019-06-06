@@ -1,9 +1,14 @@
-package tamagochi;
+package threads.tamagochi;
+
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * Created by Oleksandra_Dmytrenko on 5/18/2017.
  * Observable
  */
+@Getter
+@Setter
 public class TamagochiMind {
 
     private TamagochiState state;
