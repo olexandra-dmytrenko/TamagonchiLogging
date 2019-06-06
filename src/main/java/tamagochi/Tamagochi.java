@@ -24,14 +24,14 @@ public class Tamagochi implements Runnable {
         this.mind = mind;
     }
 
-    public void startThread() {
+    public void startThread() throws IOException {
         setUpFileLogger();
         this.thread = new Thread(this);
         thread.start();
     }
 
-    private void setUpFileLogger() {
-        try {
+    private void setUpFileLogger() throws IOException {
+
             logger = Logger.getAnonymousLogger();
             FileHandler handler = new FileHandler("log/julLog.log");
             handler.setFormatter(new SimpleFormatter());
@@ -39,9 +39,6 @@ public class Tamagochi implements Runnable {
             logger.addHandler(handler);
             logger.setLevel(Level.ALL);
             handler.setLevel(Level.FINE);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     public void run() {
