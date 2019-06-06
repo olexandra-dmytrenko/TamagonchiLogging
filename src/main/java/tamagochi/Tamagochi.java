@@ -2,6 +2,7 @@ package tamagochi;
 
 import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -45,6 +46,8 @@ public class Tamagochi implements Runnable {
 
     public void run() {
         log.info("Tamagochi Thread has started !!!!!!" + Thread.currentThread().getName());
+        log.log(Level.forName("CUST", 150), "Tamagochi Thread has started !!!!!!" + Thread.currentThread().getName());
+        log.log(Level.getLevel("CUSTOMER"), "CUSTOMER, ALL G0ES WELL!");
         System.out.println("Run started with state " + mind.getState().getName());
         try {
             do {
@@ -57,7 +60,7 @@ public class Tamagochi implements Runnable {
             TamagochiState deadState = new TamagochiState(StateName.DEAD);
             mind.output(deadState);
 
-//            log.fine("Tamagochi Thread speaking: " + thread.getState());
+            log.trace("Tamagochi Thread speaking: " + thread.getState());
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

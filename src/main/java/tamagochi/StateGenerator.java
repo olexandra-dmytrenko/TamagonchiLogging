@@ -13,7 +13,7 @@ public class StateGenerator implements Runnable {
 
     private final TamagochiMind mind;
     private Thread thread;
-    private static Logger log = LogManager.getLogger(StateGenerator.class);
+    private static Logger log = LogManager.getLogger();
 
     public StateGenerator(TamagochiMind mind) {
         this.mind = mind;
@@ -23,6 +23,7 @@ public class StateGenerator implements Runnable {
         this.thread = new Thread(this);
         thread.start();
         log.info("StateGenerator has started " + Thread.currentThread().getName());
+        log.debug("Message with thead {} params", Thread.currentThread().getName());
     }
 
     public void run() {
